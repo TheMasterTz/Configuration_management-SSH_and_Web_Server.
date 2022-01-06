@@ -20,7 +20,7 @@ sftp -oPort=custom_port sammy@your_server_ip_or_remote_hostname
 # -- specific directory
 # sftp> get -r someDirectory
 
-# Tranfer from local machine to server
+# Transfer from local machine to server
 # sftp> put localFile
 
 # -- specific directory
