@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ssh username@remote_host
