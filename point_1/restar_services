@@ -1,0 +1,13 @@
+# Restart services on Ubuntu
+
+# First: list all active services
+# service --status-all
+
+# Second: execute systemctl for start / stop / restart
+# sudo systemctl [acción] [service_name]
+
+# For instance
+# sudo systemctl restart ufw
+
+# Checkout status
+# sudo service ufw status
