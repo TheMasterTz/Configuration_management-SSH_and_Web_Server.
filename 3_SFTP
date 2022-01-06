@@ -1,0 +1,28 @@
+# SFTP Connection
+
+# resource https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server-es
+
+# establish session
+sftp sammy@your_server_ip_or_remote_hostname
+
+# establish session with custom port
+sftp -oPort=custom_port sammy@your_server_ip_or_remote_hostname
+
+# help
+# sftp> ? or help
+
+# Transfer from server to local machine - all files
+# sftp> get remoteFile
+
+# -- specific file
+# stfp> get remoteFile
+
+# -- specific directory
+# sftp> get -r someDirectory
+
+# Tranfer from local machine to server
+# sftp> put localFile
+
+# -- specific directory
+# stfp> put -r localDirectory
+
